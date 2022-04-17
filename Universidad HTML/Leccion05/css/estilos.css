@@ -1,0 +1,30 @@
+h1{
+    color: #1d3557;
+}
+ul{
+    /*No utilizar Viñetas*/
+    list-style-type: none;
+    background-color: #457b9d;
+    /*La lista se muestra de manera independientey luego el texto de Inicio*/
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+li{
+    /*Poner de forma orizontalo la lista*/
+    float: left;
+}
+/*Solamente se aplicaran alos elementos de listas Item y que ademas son Links*/
+li a{
+    /*Los elementos se desplegan como un bloque*/
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    /*Quitar el subrayado*/
+    text-decoration: none;
+}
+/*Cuando estemos encima del link pasara*/
+li a:hover{
+    background-color: #1d3557;
+}

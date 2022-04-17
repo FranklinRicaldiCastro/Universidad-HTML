@@ -1,0 +1,38 @@
+table{
+    width: 100%;
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    /*border-spacing: 5px;*/
+}
+caption{
+    color: #e63946;
+    font-family: 'trocchi', serif;
+    /*tamaño de la fuente*/
+    font-size: 45px;
+    /*El largo del titulo separar tanto la parte inferior como superior*/
+    line-height: 70px;
+}
+th{
+    color: #f1faee;
+    background-color: #1d3557;
+}
+/*even = par
+odd= impar*/
+/*Propiedad CSS para modificar los reglone pares*/
+tr:nth-child(even){
+    background-color: #b6bdb3;
+}
+/*Propiedad CSS para modificar los reglone impares*/
+tr:nth-child(odd){
+    background-color: #a8dadc;
+}
+/*
+td{
+    text-align: center;
+}
+th{
+    text-align: left;
+}*/
